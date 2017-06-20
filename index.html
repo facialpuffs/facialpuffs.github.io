@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Facial-Puffs</title>
+<style>
+@keyframes uspinme {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+@keyframes upaintme {
+    from {filter: hue-rotate(360deg);}
+    to {filter: hue-rotate(0deg);}
+}
+#uspin {
+animation-name: uspinme;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+margin: 30px;
+margin-top: 10%;
+}
+#uspin:hover {
+animation-name: uspinme, upaintme;
+animation-duration: 3s, 1s;
+}
+</style>
+</head>
+<body>
+<center>
+<img id="uspin" src="https://github.com/facialpuffs.png" />
+<h2>Facial-Puffs</h2>
+<p>I can see you... Use some of this in-case you need to wipe the shit off your ass..</p>
+</center>
+</body>
+</html>
